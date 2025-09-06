@@ -1,40 +1,40 @@
-Uber Trip Data Analysis & Visualization
-Project Overview
+# **Uber Trip Data Analysis & Visualization**
 
+---
+
+## **Project Overview**
 The primary goal was to transform raw Uber trip data into a clean, structured format and then analyze it to understand trip patterns, user behavior, and key metrics. The analysis focuses on understanding factors like trip mileage, purpose, and distribution.
 
-<u>Key Steps & Skills</u>
+---
 
-Data Cleaning & Preprocessing: The initial dataset had missing and inconsistent values. I used Python and Pandas to clean the data, converting date/time columns to the correct format and handling missing entries in columns like MILES and PURPOSE. This ensured the data was reliable for analysis.
+## **Key Steps & Skills**
+- **Data Cleaning & Preprocessing:**  
+  Used Python and Pandas to clean the dataset (fixing missing values, converting date/time columns, handling nulls in `MILES` and `PURPOSE`). This ensured the data was reliable for analysis.  
 
-Exploratory Data Analysis (EDA): I performed a deep dive into the data to understand its structure and content. This involved analyzing the distribution of trips, categories, and unique start/stop locations to inform the visualization strategy.
+- **Exploratory Data Analysis (EDA):**  
+  Analyzed trip distributions, categories, and start/stop locations to guide visualization choices.  
 
-Data Visualization: I tackled the challenge of visualizing numerous categorical variables by creating a variety of effective charts. Using libraries like Matplotlib, Seaborn, and Plotly, I generated visuals such as pie charts, bar charts, boxplots, and scatterplots.
+- **Data Visualization:**  
+  Created pie charts, bar charts, boxplots, and scatterplots with Matplotlib, Seaborn, and Plotly to capture key insights.  
 
-<u>Insights & Findings</u>
+---
 
-A significant portion of trips were for business purposes.
+## **Insights & Findings**
+- A significant portion of trips were for **business purposes**.  
+- Most trips were **short (0–10 miles)**, but longer trips for Customer Visits and Commutes contributed heavily to total mileage.  
+- **Meeting, Customer Visit, and Temporary Site** were the top three trip purposes by total miles.  
 
-The majority of trips were relatively short (0-10 miles), though longer trips for purposes like Customer Visit and Commute accounted for a substantial amount of total mileage.
+---
 
-Meeting, Customer Visit, and Temporary Site were identified as the top three trip purposes by total miles driven.
+## **Future Enhancements**
+- Expand analysis with larger datasets for **customer segmentation**.  
+- Include **external factors** like weather or time of day.  
+- Model the impact of **surge pricing** on trip behavior.  
 
-<u>Future Enhancements</u>
+---
 
-With a larger dataset, this project could be expanded to include:
-
-Customer segmentation to identify different user groups.
-
-Analysis of the impact of external factors like weather and time of day on trip patterns.
-
-Modeling the effects of surge pricing on trip behavior.
-
-<u>Tech Stack</u>
-
-Python
-
-Pandas (for data manipulation)
-
-Matplotlib, Seaborn, Plotly (for data visualization)
-
-Jupyter Notebook (for the analysis environment)
+## **Tech Stack**
+- **Python**  
+- **Pandas** (data manipulation)  
+- **Matplotlib, Seaborn, Plotly** (data visualization)  
+- **Jupyter Notebook** (analysis environment)  
